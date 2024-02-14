@@ -6,13 +6,12 @@ public class ObjectFollowPlayer : MonoBehaviour
 
     private Vector3 lastPlayerPosition;
 
-    // Start is called before the first frame update
     void Start()
     {
         lastPlayerPosition = playerTransform.position;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (playerTransform != null)
